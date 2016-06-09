@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Buddy Locator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="tab_name">
+        <item>Whitelist</item>
+        <item>Report</item>
+    </string-array>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_check_in">Check In</string>
+    <string name="title_activity_add_whitelist">Add Whitelist</string>
+    <string name="title_activity_view_location">View Location</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

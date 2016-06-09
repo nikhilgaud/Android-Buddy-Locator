@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_add" android:title="Add"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_action_content_add"/>
+
+<!--    <item
+        android:id="@+id/myswitch"
+        android:title="Service On/Off"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:actionLayout="@layout/switch_layout"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_action_settings"/> -->
+
+    <item android:id="@+id/action_id" android:title="My ID"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/action_checkin" android:title="Check in"
+        android:orderInCategory="100" app:showAsAction="always"/>
+
+    <item android:id="@+id/action_info" android:title="Info"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+</menu>

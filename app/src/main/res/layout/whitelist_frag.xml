@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvWiFi"
+        android:dividerHeight="0dp"
+        android:divider="@null" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Refresh"
+        android:src="@drawable/ic_action_autorenew"
+        android:layout_alignTop="@+id/lvWiFi"
+        android:id="@+id/ibRefresh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
